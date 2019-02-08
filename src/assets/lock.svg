@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="14px" height="19px" viewBox="0 0 14 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="17px" height="20px" viewBox="0 0 17 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 297 copy</title>
+    <title>Combined Shape</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="CABS---Common" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="A03-Copy-3" transform="translate(-200.000000, -86.000000)" fill="#F5A623" fill-rule="nonzero" stroke="#4A4A4A">
-            <polygon id="Rectangle-297-copy" points="205.071429 87 211.5 87 207.826531 94.5 213 94.5 202.5 105 204.642857 97.5 201 97.5"></polygon>
+        <g id="A03-Copy-3" transform="translate(-233.000000, -84.000000)" fill="#FFFFFF" stroke="#000000">
+            <path d="M247.5003,103 L235.4997,103 C234.671037,103 234,102.328392 234,101.500125 L234,94 C234,93.1717332 234.671787,92.4993754 235.4997,92.4993754 L236.24955,92.4993754 L236.24955,90.2499375 C236.24955,87.3506288 238.60043,85 241.5,85 C244.39957,85 246.75045,87.3506288 246.75045,90.2499375 L246.75045,92.4993754 L247.5003,92.4993754 C248.328963,92.4993754 249,93.1709836 249,94 L249,101.500125 C249,102.327642 248.328213,103 247.5003,103 Z M244.50015,90.2499375 C244.50015,88.5934038 243.156575,87.2501874 241.5,87.2501874 C239.843425,87.2501874 238.49985,88.5934038 238.49985,90.2499375 L238.49985,92.4993754 L244.50015,92.4993754 L244.50015,90.2499375 Z" id="Combined-Shape"></path>
         </g>
     </g>
 </svg>
