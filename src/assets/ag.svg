@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="22px" viewBox="0 0 25 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="CABS---Common" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A03-Copy-3" transform="translate(-292.000000, -294.000000)">
+            <g id="Group-4" transform="translate(293.000000, 295.000000)">
+                <path d="M0,14.0879245 C0,15.1615301 0.888602664,16.0309907 1.98572259,16.0309907 L4.96447041,16.0309907 L4.96447041,19.0285739 C4.96447041,19.5679164 5.41150389,20 5.957441,20 C6.23568259,20 6.48824202,19.8879823 6.66719748,19.7087005 L10.4255354,16.0310441 L21.3476107,16.0310441 C22.4447307,16.0310441 23.3333333,15.1615835 23.3333333,14.087978 L23.3333333,1.9431196 C23.3333333,0.869514073 22.4447307,0 21.3476107,0 L1.98577724,0 C0.888602664,0 5.46428892e-05,0.869514073 5.46428892e-05,1.9431196 L5.46428892e-05,14.0879245 L0,14.0879245 Z" id="Path" stroke="#000000" fill="#FFFFFF"></path>
+                <text id="AG" font-family="Roboto-Bold, Roboto" font-size="10" font-weight="bold" letter-spacing="0.75" fill="#000000">
+                    <tspan x="4" y="12">AG</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

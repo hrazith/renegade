@@ -1,0 +1,363 @@
+
+
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+    @import url('1378gs.css');
+
+    :root {
+        --cabs-blu: #AACFEA;
+        --cabs-hyperblu: #005BCB;
+        --cabs-text: #4a5a77;
+        --cabs-highlight: #fcf113;
+        --cabs-history: #f2f2f2;
+        --cabs-gray: #4A4A4A;
+        --default: 14px;
+        --small: 12px;
+        --tiny: 10px;
+    }
+
+    ::selection {
+        background: var(--cabs-highlight); /* WebKit/Blink Browsers */
+    }
+
+    ::-moz-selection {
+        background: #ffb7b7; /* Gecko Browsers */
+    }
+
+    html {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    *, *:before, *:after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    #app {
+        font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #2c3e50;
+        font-size: var(--default);
+    }
+
+    .nav {
+        background-color: var(--cabs-hyperblu);
+        color: #fff;
+        padding: 20px 12px;
+    }
+
+    .container {
+        background-color: #f2f2f2;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--cabs-hyperblu);
+    }
+
+    a:hover {
+        border-bottom: 1px dotted var(--cabs-hyperblu);
+        cursor: pointer;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: var(--default);
+        margin-top: 8px;
+        line-height: 1.4;
+        color: var(--cabs-gray);
+    }
+    h4 {
+        margin-bottom: 2px;
+    }
+
+    h4, time, .timeline-item::before {
+        font-size: var(--tiny);
+        color: var(--cabs-gray);
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+
+    ul li {
+        list-style-type: none;
+    }
+
+
+    /* Check */
+
+    .headers h4 {
+        text-transform: uppercase;
+    }
+
+    .history-item {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        height: auto;
+        min-height: 274px;
+        position: relative;
+        background-color: var(--cabs-history);
+    }
+
+    div[class^='col'], div[class*=' col']{
+        padding: 12px 0;
+    }
+
+    .chk-atts li {
+        display: inline;
+        margin-right: 12px;
+    }
+
+    .cabsnumber {
+        font-size: 20px;
+        font-weight: 300;
+        margin-right: 120px;
+    }
+
+    .status {
+        color: #7b7b7b;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .size {
+        font-weight: 700;
+    }
+
+
+    .indicators {
+        border-top: 1px solid #ccc;
+        padding: 12px 0;
+    }
+    .indicators-list li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+
+    .actions-box {
+        width: 30%;
+        height: 100%;
+        background-color: white;
+        border-left: 2px solid black;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: .9;
+
+    }
+
+
+    .companies, .contacts {
+        padding-left: 58px;
+    }
+
+
+    .client, .target {
+        background-image:linear-gradient(180deg,transparent 65%,#fcf113 0);
+    }
+
+    .client:hover, .target:hover {
+        border-bottom: none;
+    }
+
+    .client::before {
+        content: "CLIENT";
+        margin-left: -60px;
+        font-size: 9px;
+        font-weight: 700;
+        color: black;
+        padding:2px  20px 2px 9px;
+        background: url("../assets/label-bg.svg") no-repeat 2px 0 ;
+    }
+
+    .target::before {
+        content: "TARGET";
+        margin-left: -60px;
+        font-size: 9px;
+        font-weight: 700;
+        color: black;
+        padding:2px  20px 2px 7px;
+        background: url("../assets/label-bg.svg") no-repeat 2px 0 ;
+    }
+
+    .companies h4:nth-of-type(2) {
+        margin-top: 20px;
+    }
+
+    .contacts ::before {
+        font-size: 9px;
+        color: #7b7b7b;
+        margin-left: -58px;
+    }
+
+
+    .lead::before {
+        content: "LEAD";
+        padding-right: 36px;
+    }
+
+    .initiator::before {
+        content: "INITIATOR";
+        padding-right: 15px;
+    }
+
+    .coverage::before {
+        content: "COVERAGE";
+        padding-right: 12px;
+    }
+
+    .note, .restriction {
+        padding: 1px 4px;
+        border: 1px solid #000;
+        font-size: var(--tiny);
+        font-weight: 700;
+        margin-left: 4px;
+        background-color: #fff;
+        cursor: pointer;
+        position: relative;
+        bottom: 2px;
+    }
+
+    .condition {
+        border: 1px solid black;
+        padding: 4px 8px;
+        font-size: 10px;
+        font-weight: 700;
+        border-radius: 12px;
+    }
+
+    /** TIMELINE **/
+
+
+    .timeline-item { position: relative; }
+
+    /*   + in circle when TimeLine is NOT Expanded.   */
+    .timeline-item:first-child::before {
+        width: 10px;
+        height: 10px;
+        display: block;
+        position: absolute;
+        left: -17px;
+        top: 4px;
+        border-radius: 10px;
+        content:'';
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        background: url('../assets/+.svg') white 2px 2px no-repeat;
+        z-index: 1;
+    }
+
+    /*   Small Gray Dot when TimeLine is Expanded.  */
+    .expanded .timeline-item:first-child::before,
+    .timeline-item::before {
+        width: 6px;
+        height: 6px;
+        display: block;
+        position: absolute;
+        left: -14px;
+        top: 7px;
+        border-radius: 6px;
+        content:'';
+        background:#aaa;
+        z-index: 1;
+        border: none;
+    }
+
+    /*  Dashed line as TimeLine Track  */
+    .timeline-item::after {
+        content:'';
+        position: absolute;
+        top: 4px;
+        left:-12px;
+        height:100%;
+        border: 1px dashed #ccc;
+        background: white;
+    }
+
+    /*  Last item, no dashed border  */
+    .timeline-item:last-child::after {
+        content:'';
+        border: none;
+    }
+
+    .timeline-item:hover::before {
+        background-color: var(--cabs-highlight);
+        cursor: pointer;
+    }
+
+    .timeline-item {
+        padding-bottom: 16px;
+    }
+
+    .timeline-item:last-child{
+        padding-bottom: 0;
+    }
+
+    .timeline-item:hover {
+        cursor: pointer;
+    }
+
+
+
+
+
+
+    /* DISTRIBUTION */
+
+    .detail-view, .tree-view {
+        float: left;
+    }
+
+
+    .tree-view {
+        background-color: #f2f2f2;
+        width:40%;
+    }
+
+    .tree-view ul li {
+        list-style: none;
+        cursor: pointer;
+        margin-bottom: 12px;
+    }
+
+    .tree-view ul ul {
+        margin-top: 12px;
+    }
+
+    .tree-view li > ul {
+        margin-top: 20px;
+    }
+
+    .tree-view .group {
+        font-size: var(--small);
+        font-weight: 500;
+        border: 1px solid var(--cabs-gray);
+        padding: 4px 12px;
+        background-color: #fff;
+    }
+
+    .banker {
+        color: var(--cabs-hyperblu);
+    }
+
+    .detail-view {
+        width: 60%;
+    }
+
+    .detail-view .group {
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: 2px solid red;
+    }
