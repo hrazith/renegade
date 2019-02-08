@@ -1,5 +1,6 @@
 
-
+    @import url('normalize.css');
+    @import url('reset.css');
     @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
     @import url('1378gs.css');
 
@@ -50,7 +51,7 @@
     .nav {
         background-color: var(--cabs-hyperblu);
         color: #fff;
-        padding: 20px 12px;
+        padding: 14px 12px;
     }
 
     .container {
