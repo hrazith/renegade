@@ -51,7 +51,12 @@
     .nav {
         background-color: var(--cabs-hyperblu);
         color: #fff;
-        padding: 14px 12px;
+        padding: 18px 24px;
+    }
+
+    .hmenu {
+        float: right;
+        border: 1px solid red;
     }
 
     .container {
@@ -79,6 +84,11 @@
         line-height: 1.4;
         color: var(--cabs-gray);
     }
+
+    h1 {
+        font-size: 30px;
+    }
+
     h4 {
         margin-bottom: 2px;
     }
